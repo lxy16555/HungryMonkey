@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.gatech.xliu.hungrymonkey.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Hungry Monkey"
+        android:id="@+id/title1"
+        android:layout_marginTop="64dp"
+        android:textIsSelectable="true"
+        android:textSize="@dimen/abc_action_button_min_width_overflow_material"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/username1"
+        android:layout_marginTop="120dp"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/password1"
+        android:layout_marginTop="180dp"
+        android:layout_alignLeft="@+id/username1"
+        android:layout_alignStart="@+id/username1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Remember me"
+        android:id="@+id/textView2"
+        android:textSize="20dp"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/password1"
+        android:layout_alignLeft="@+id/password1"
+        android:layout_alignStart="@+id/password1" />
+
+    <Switch
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:id="@+id/switch1"
+        android:layout_alignTop="@+id/textView2"
+        android:layout_alignRight="@+id/password1"
+        android:layout_alignEnd="@+id/password1"
+        android:layout_alignBottom="@+id/textView2" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:id="@+id/signin"
+        android:textSize="20sp"
+        android:background="@android:color/holo_blue_dark"
+        android:layout_marginTop="16dp"
+        android:layout_below="@+id/textView2"
+        android:layout_alignLeft="@+id/signup"
+        android:layout_alignStart="@+id/signup" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="New user?"
+        android:id="@+id/textView3"
+        android:textSize="20dp"
+        android:layout_below="@+id/signin"
+        android:layout_marginTop="16dp"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Sign Up"
+        android:id="@+id/signup"
+        android:textSize="20dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:background="@android:color/holo_blue_dark" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Forget password?"
+        android:id="@+id/forgetp"
+        android:layout_below="@+id/signup"
+        android:layout_marginTop="16dp"
+        android:textSize="20dp"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_alignStart="@+id/textView3"
+        android:textStyle="bold" />
+
+</RelativeLayout>
