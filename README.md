@@ -1,3 +1,4 @@
 #HungryMonkey
 ---
-##This is a course project for CS8803 Mobile Apps and Services.
+###An app to provide information of restaurants on campus.
+
