@@ -49,7 +49,8 @@ public class WebService {
             param.add(new String(user.username));
             param.add(new String(user.password));
             try {
-                URL url = new URL("http://192.168.0.106/~lyleliu/register.php");
+//                URL url = new URL("http://192.168.0.106/~lyleliu/register.php");
+                URL url = new URL("http://143.215.56.250/~lyleliu/register.php");
                 HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
                 urlConnection.setReadTimeout(15000);
                 urlConnection.setConnectTimeout(15000);
@@ -105,7 +106,8 @@ public class WebService {
             param.add(new String(user.username));
             param.add(new String(user.password));
             try {
-                URL url = new URL("http://192.168.0.106/~lyleliu/login.php");
+//                URL url = new URL("http://192.168.0.106/~lyleliu/login.php");
+                URL url = new URL("http://143.215.56.250/~lyleliu/login.php");
                 HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
                 urlConnection.setReadTimeout(15000);
                 urlConnection.setConnectTimeout(15000);
