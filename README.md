@@ -1,4 +1,3 @@
 #HungryMonkey
 ---
-###An app to provide information of restaurants on campus.
-
+#####This is an app aimed at helping students better managing dinning time on campus.
